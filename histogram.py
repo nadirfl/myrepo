@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Histogram
 n_bins = 50
 x = np.random.randn(1000, 3)
-colors = ['blue', 'orange', 'green']
+colors = ['blue', 'red', 'green']
 plt.hist(x,
          n_bins,
          histtype='bar',
